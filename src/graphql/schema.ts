@@ -16,6 +16,10 @@ const typeDefinitions = /* GraphQL */ `
     people: [Person]!
     sortFromYoungToOld: [Person]!
   }
+
+  type Mutation {
+    deletePerson(id: Int!): [Person]!
+  }
 `;
 
 
